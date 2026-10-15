@@ -1,0 +1,10 @@
+[project]
+name = "pruebas"
+version = "0.1.0"
+description = "Chat de pruebas con la API de Groq"
+requires-python = ">=3.12"
+dependencies = [
+    "groq>=1.7.0",
+    "python-dotenv>=1.2.4",
+    "google-genai>=2.31.0",
+]
